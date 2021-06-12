@@ -10,6 +10,9 @@ Technologies used in that implementation are
 
 ## Setup
 Configure the following environment variables on your machine or server
+by editing your .bashrc file on linux or ~/.bash_profile om mac or follow
+this [link](https://phoenixnap.com/kb/windows-set-environment-variable) for windows
+users.
 
 ```
 export PORT=<your running port>

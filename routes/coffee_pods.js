@@ -1,8 +1,8 @@
-const { CoffeePod } = require('../models/coffee_pod'); 
-const mongoose = require('mongoose');
-const express = require('express');
+const { CoffeePod } = require('../models/coffee_pod')  
+const mongoose = require('mongoose') 
+const express = require('express') 
 
-const router = express.Router();
+const router = express.Router() 
 
 router.get('/', async (req, res) => {
   try{
@@ -13,6 +13,6 @@ router.get('/', async (req, res) => {
     res.status(404)
     res.send({ error: error.message })
   }
-});
+}) 
 
-module.exports = router; 
+module.exports = router  

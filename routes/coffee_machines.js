@@ -1,8 +1,8 @@
-const { CoffeeMachine } = require('../models/coffee_machine'); 
-const mongoose = require('mongoose');
-const express = require('express');
+const { CoffeeMachine } = require('../models/coffee_machine')  
+const mongoose = require('mongoose') 
+const express = require('express') 
 
-const router = express.Router();
+const router = express.Router() 
 
 router.get('/', async (req, res) => {
   try{
@@ -13,6 +13,6 @@ router.get('/', async (req, res) => {
     res.status(404)
     res.send({ error: "Coffee machines not found" })
   }
-});
+}) 
 
-module.exports = router; 
+module.exports = router  

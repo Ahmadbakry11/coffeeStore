@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose') 
 
 const CoffeeMachine = mongoose.model('CoffeeMachine', new mongoose.Schema({
   product_type: { 
@@ -9,6 +9,6 @@ const CoffeeMachine = mongoose.model('CoffeeMachine', new mongoose.Schema({
     type: Boolean, 
     required: true 
   }
-}, { collection: 'coffeeMachines' }));
+}, { collection: 'coffeeMachines' })) 
 
-exports.CoffeeMachine = CoffeeMachine; 
+exports.CoffeeMachine = CoffeeMachine  
