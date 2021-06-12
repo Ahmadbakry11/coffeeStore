@@ -1,0 +1,25 @@
+{
+  "name": "coffeestore",
+  "version": "1.0.0",
+  "description": "An implementation for the coffee store mobile app api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmadbakry11/coffeeStore.git"
+  },
+  "author": "Ahmed Bakry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmadbakry11/coffeeStore/issues"
+  },
+  "homepage": "https://github.com/Ahmadbakry11/coffeeStore#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.7"
+  }
+}
